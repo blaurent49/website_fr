@@ -41,9 +41,9 @@ Le C++ se décompose en deux parties :
 1) le code métier du module C++
 2) l'enrobage qui fait le lien entre JavaScript et le coder métier
 
-Tout le code du point 1) se trouve dans le fichier `functions.cc`.
+Tout le code du point 1) se trouve dans le dossier `wotcpp/`.
 
-Tout le code du point 2) se trouve dans le dossier `wotcpp/`.
+Tout le code du point 2) se trouve dans le fichier `functions.cc`.
 
 Il  est possible de travailler indépendamment sur 2), en se positionnant dans le dossier `wotcpp/` puis en utilisant CMake. Il est possible de tester le module à travers le fichier `main.cpp`.
 
